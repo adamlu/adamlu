@@ -1,0 +1,58 @@
+/*
+Syntax error: Invalid CSS after "left": expected expression (e.g. 1px, bold), was ";"
+        on line 4 of sass.css
+
+1: /* CSS */
+2: 
+3: #data {
+4:   float: left;
+5:   margin-left: 10px;
+6: }
+7: #data th {
+8:   text-align: center;
+9:   font-weight: bold;
+
+Backtrace:
+sass.css:4
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/scss/parser.rb:929:in `expected'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/lexer.rb:193:in `expected!'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/parser.rb:465:in `assert_done'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/parser.rb:50:in `parse'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script/parser.rb:140:in `parse'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/script.rb:32:in `parse'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:830:in `parse_script'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:593:in `parse_property'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:582:in `parse_property_or_rule'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:563:in `parse_line'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:456:in `build_tree'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:475:in `append_children'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:474:in `each'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:474:in `append_children'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:465:in `build_tree'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:458:in `each'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:458:in `build_tree'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:475:in `append_children'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:474:in `each'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:474:in `append_children'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:330:in `_to_tree'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:300:in `_render'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/engine.rb:247:in `render'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:339:in `update_stylesheet'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:202:in `update_stylesheets'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:200:in `each'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:200:in `update_stylesheets'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin/compiler.rb:234:in `watch'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin.rb:107:in `send'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/plugin.rb:107:in `method_missing'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:421:in `watch_or_update'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:302:in `process_result'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:41:in `parse'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/../lib/sass/../sass/exec.rb:21:in `parse!'
+/Users/chaowu/.gem/ruby/1.8/gems/sass-3.1.12/bin/sass:8
+/usr/bin/sass:19:in `load'
+/usr/bin/sass:19
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"left\": expected expression (e.g. 1px, bold), was \";\"\A         on line 4 of sass.css\A \A 1: /* CSS */\A 2: \A 3: #data {\A 4:   float: left;\A 5:   margin-left: 10px;\A 6: }\A 7: #data th {\A 8:   text-align: center;\A 9:   font-weight: bold;"; }
